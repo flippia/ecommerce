@@ -1,0 +1,13 @@
+.product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;    
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: black;
+}
