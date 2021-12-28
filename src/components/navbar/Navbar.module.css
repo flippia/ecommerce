@@ -11,7 +11,6 @@
 }
 
 .navbar a {
-    margin-left: 1rem;
     text-decoration: none;
     padding: 0.5rem;
 }
@@ -21,6 +20,28 @@
 }
 
 .navbar a.active {
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+}
+
+.functions {
+    margin-left: auto;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.functions a {
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+
+.functions a:hover {
+    color: #f1356d;
+}
+
+.functions a.active {
     background-color: #f4f4f4;
     border-radius: 0.5rem;
 }
