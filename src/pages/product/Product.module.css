@@ -19,6 +19,10 @@
     text-align: left;
 }
 
+.text-info button{
+    margin-top: 2rem;
+}
+
 .product .img-box{
     max-width: 18rem;
     margin-right: 2rem;
